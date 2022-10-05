@@ -1,0 +1,9 @@
+
+23. Executing CHECK pass (checking for obvious problems).
+Checking module adder_4b...
+Warning: Wire adder_4b.\Sum_8263 [3] is used but has no driver.
+Warning: Wire adder_4b.\Sum_8263 [2] is used but has no driver.
+Warning: Wire adder_4b.\Sum_8263 [1] is used but has no driver.
+Warning: Wire adder_4b.\Sum_8263 [0] is used but has no driver.
+Warning: Wire adder_4b.\C_out is used but has no driver.
+Found and reported 5 problems.

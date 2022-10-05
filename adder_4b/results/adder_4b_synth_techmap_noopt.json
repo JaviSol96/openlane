@@ -1,0 +1,2116 @@
+{
+  "creator": "Yosys 0.20+70 (git sha1 6e907acf86d, gcc 8.3.1 -fPIC -Os)",
+  "modules": {
+    "adder_4b": {
+      "attributes": {
+        "hdlname": "\\adder_4b",
+        "top": "00000000000000000000000000000001",
+        "src": "designs/adder_4b/adder_4b.v:1.1-10.10"
+      },
+      "ports": {
+        "A_82": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "B_63": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9 ]
+        },
+        "C_in": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "Sum_8263": {
+          "direction": "output",
+          "bits": [ 11, 12, 13, 14 ]
+        },
+        "C_out": {
+          "direction": "output",
+          "bits": [ 15 ]
+        }
+      },
+      "cells": {
+        "$auto$simplemap.cc:278:simplemap_mux$130": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 16 ],
+            "S": [ "0" ],
+            "Y": [ 17 ]
+          }
+        },
+        "$auto$simplemap.cc:278:simplemap_mux$131": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 18 ],
+            "S": [ "0" ],
+            "Y": [ 19 ]
+          }
+        },
+        "$auto$simplemap.cc:278:simplemap_mux$132": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8 ],
+            "B": [ 20 ],
+            "S": [ "0" ],
+            "Y": [ 21 ]
+          }
+        },
+        "$auto$simplemap.cc:278:simplemap_mux$133": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 9 ],
+            "B": [ 22 ],
+            "S": [ "0" ],
+            "Y": [ 23 ]
+          }
+        },
+        "$auto$simplemap.cc:278:simplemap_mux$134": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 24 ],
+            "S": [ "0" ],
+            "Y": [ 25 ]
+          }
+        },
+        "$auto$simplemap.cc:278:simplemap_mux$156": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 26 ],
+            "B": [ 27 ],
+            "S": [ "0" ],
+            "Y": [ 28 ]
+          }
+        },
+        "$auto$simplemap.cc:278:simplemap_mux$157": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 29 ],
+            "B": [ 30 ],
+            "S": [ "0" ],
+            "Y": [ 31 ]
+          }
+        },
+        "$auto$simplemap.cc:278:simplemap_mux$158": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 32 ],
+            "B": [ 33 ],
+            "S": [ "0" ],
+            "Y": [ 34 ]
+          }
+        },
+        "$auto$simplemap.cc:278:simplemap_mux$159": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 35 ],
+            "B": [ 36 ],
+            "S": [ "0" ],
+            "Y": [ 37 ]
+          }
+        },
+        "$auto$simplemap.cc:278:simplemap_mux$160": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 38 ],
+            "B": [ 39 ],
+            "S": [ "0" ],
+            "Y": [ 40 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$135": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "Y": [ 16 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$136": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "Y": [ 18 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$137": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$138": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 9 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$139": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "Y": [ 24 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$161": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 26 ],
+            "Y": [ 27 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$162": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 29 ],
+            "Y": [ 30 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$163": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 32 ],
+            "Y": [ 33 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$164": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 35 ],
+            "Y": [ 36 ]
+          }
+        },
+        "$auto$simplemap.cc:38:simplemap_not$165": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 38 ],
+            "Y": [ 39 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$100": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 41 ],
+            "B": [ 42 ],
+            "Y": [ 38 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$101": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 43 ],
+            "Y": [ 44 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$102": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 17 ],
+            "Y": [ 45 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$103": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 19 ],
+            "Y": [ 46 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$104": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 21 ],
+            "Y": [ 47 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$105": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 23 ],
+            "Y": [ 48 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$106": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 25 ],
+            "Y": [ 41 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$107": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 17 ],
+            "Y": [ 49 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$108": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 19 ],
+            "Y": [ 50 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$109": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 21 ],
+            "Y": [ 51 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$110": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 23 ],
+            "Y": [ 52 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$111": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 25 ],
+            "Y": [ 53 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$140": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 54 ],
+            "B": [ "0" ],
+            "Y": [ 11 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$141": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 55 ],
+            "B": [ 56 ],
+            "Y": [ 12 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$142": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 57 ],
+            "B": [ 58 ],
+            "Y": [ 13 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$143": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 59 ],
+            "B": [ 60 ],
+            "Y": [ 14 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$144": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 61 ],
+            "B": [ 62 ],
+            "Y": [ 15 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$145": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 63 ],
+            "Y": [ 64 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$146": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 10 ],
+            "B": [ 28 ],
+            "Y": [ 54 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$147": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 31 ],
+            "Y": [ 55 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$148": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 34 ],
+            "Y": [ 57 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$149": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 37 ],
+            "Y": [ 59 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$150": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 40 ],
+            "Y": [ 61 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$151": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 10 ],
+            "B": [ 28 ],
+            "Y": [ 65 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$152": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 31 ],
+            "Y": [ 66 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$153": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 34 ],
+            "Y": [ 67 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$154": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 37 ],
+            "Y": [ 68 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$155": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 40 ],
+            "Y": [ 69 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$166": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:231.18-231.27"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 45 ],
+            "B": [ "0" ],
+            "Y": [ 70 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$167": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 46 ],
+            "B": [ 71 ],
+            "Y": [ 72 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$168": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 48 ],
+            "B": [ 51 ],
+            "Y": [ 73 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$169": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 74 ],
+            "B": [ 75 ],
+            "Y": [ 76 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$170": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:241.12-241.34"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 48 ],
+            "B": [ 47 ],
+            "Y": [ 74 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$171": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.19-248.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 47 ],
+            "B": [ 75 ],
+            "Y": [ 77 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$172": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.19-248.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 41 ],
+            "B": [ 42 ],
+            "Y": [ 78 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$173": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:231.10-231.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 49 ],
+            "B": [ 70 ],
+            "Y": [ 71 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$174": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.12-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 50 ],
+            "B": [ 72 ],
+            "Y": [ 75 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$175": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.12-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 52 ],
+            "B": [ 73 ],
+            "Y": [ 79 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$176": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.12-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 79 ],
+            "B": [ 76 ],
+            "Y": [ 42 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$177": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.12-248.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 51 ],
+            "B": [ 77 ],
+            "Y": [ 80 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$178": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.12-248.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 53 ],
+            "B": [ 78 ],
+            "Y": [ 43 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$179": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:231.18-231.27"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 54 ],
+            "B": [ "0" ],
+            "Y": [ 81 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$180": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 55 ],
+            "B": [ 56 ],
+            "Y": [ 82 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$181": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 59 ],
+            "B": [ 67 ],
+            "Y": [ 83 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$182": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 84 ],
+            "B": [ 58 ],
+            "Y": [ 85 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$183": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:241.12-241.34"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 59 ],
+            "B": [ 57 ],
+            "Y": [ 84 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$184": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.19-248.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 57 ],
+            "B": [ 58 ],
+            "Y": [ 86 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$185": {
+          "hide_name": 1,
+          "type": "$_AND_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.19-248.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 61 ],
+            "B": [ 62 ],
+            "Y": [ 87 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$186": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:231.10-231.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 65 ],
+            "B": [ 81 ],
+            "Y": [ 56 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$187": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.12-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 66 ],
+            "B": [ 82 ],
+            "Y": [ 58 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$188": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.12-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 68 ],
+            "B": [ 83 ],
+            "Y": [ 88 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$189": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.12-240.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 88 ],
+            "B": [ 85 ],
+            "Y": [ 62 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$190": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.12-248.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 67 ],
+            "B": [ 86 ],
+            "Y": [ 60 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$191": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.12-248.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 69 ],
+            "B": [ 87 ],
+            "Y": [ 63 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$96": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 45 ],
+            "B": [ "0" ],
+            "Y": [ 26 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$97": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 46 ],
+            "B": [ 71 ],
+            "Y": [ 29 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$98": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 47 ],
+            "B": [ 75 ],
+            "Y": [ 32 ]
+          }
+        },
+        "$auto$simplemap.cc:86:simplemap_bitop$99": {
+          "hide_name": 1,
+          "type": "$_XOR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 48 ],
+            "B": [ 80 ],
+            "Y": [ 35 ]
+          }
+        }
+      },
+      "netnames": {
+        "$add$designs/adder_4b/adder_4b.v:8$1.A": {
+          "hide_name": 1,
+          "bits": [ 89, 90, 91, 92 ],
+          "attributes": {
+          }
+        },
+        "$add$designs/adder_4b/adder_4b.v:8$1.B": {
+          "hide_name": 1,
+          "bits": [ 93, 94, 95, 96 ],
+          "attributes": {
+          }
+        },
+        "$add$designs/adder_4b/adder_4b.v:8$1.Y": {
+          "hide_name": 1,
+          "bits": [ 97, 98, 99, 100, 101 ],
+          "attributes": {
+          }
+        },
+        "$add$designs/adder_4b/adder_4b.v:8$1_Y": {
+          "hide_name": 1,
+          "bits": [ 26, 29, 32, 35, 38 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40"
+          }
+        },
+        "$add$designs/adder_4b/adder_4b.v:8$2.A": {
+          "hide_name": 1,
+          "bits": [ 102, 103, 104, 105, 106 ],
+          "attributes": {
+          }
+        },
+        "$add$designs/adder_4b/adder_4b.v:8$2.B": {
+          "hide_name": 1,
+          "bits": [ 107 ],
+          "attributes": {
+          }
+        },
+        "$add$designs/adder_4b/adder_4b.v:8$2.Y": {
+          "hide_name": 1,
+          "bits": [ 108, 109, 110, 111, 112 ],
+          "attributes": {
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.A": {
+          "hide_name": 1,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:266.22-266.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.AA": {
+          "hide_name": 1,
+          "bits": [ 2, 3, 4, 5, "0" ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:277.21-277.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.A_buf": {
+          "hide_name": 1,
+          "bits": [ 2, 3, 4, 5, "0" ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:282.21-282.26"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.B": {
+          "hide_name": 1,
+          "bits": [ 6, 7, 8, 9 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:268.22-268.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.BB": {
+          "hide_name": 1,
+          "bits": [ 17, 19, 21, 23, 25 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.21-279.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.BI": {
+          "hide_name": 1,
+          "bits": [ 113 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:272.12-272.14"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.B_buf": {
+          "hide_name": 1,
+          "bits": [ 6, 7, 8, 9, "0" ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:282.28-282.33"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.CI": {
+          "hide_name": 1,
+          "bits": [ 114 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:272.8-272.10"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.CO": {
+          "hide_name": 1,
+          "bits": [ 71, 75, 80, 42, 43 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.X": {
+          "hide_name": 1,
+          "bits": [ 45, 46, 47, 48, 41 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:270.23-270.24"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.Y": {
+          "hide_name": 1,
+          "bits": [ 26, 29, 32, 35, 38 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:270.26-270.27"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.CI": {
+          "hide_name": 1,
+          "bits": [ 115 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:215.8-215.10"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.CO": {
+          "hide_name": 1,
+          "bits": [ 71, 75, 80, 42, 43 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:218.21-218.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.G": {
+          "hide_name": 1,
+          "bits": [ 49, 50, 51, 52, 53 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:214.23-214.24"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.P": {
+          "hide_name": 1,
+          "bits": [ 45, 46, 47, 48, 41 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:214.20-214.21"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu._TECHMAP_DONE_": {
+          "hide_name": 1,
+          "bits": [ "0", "0", "1", "0", "1", "1", "1", "0", "1", "1", "0", "0", "1", "1", "1", "0", "1", "0", "0", "0", "0", "1", "1", "0", "0", "1", "1", "0", "0", "1", "1", "0", "1", "0", "1", "1", "0", "1", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "1", "0", "1", "1", "1", "0", "0", "0", "0", "0", "1", "1", "1", "0", "1", "1", "1", "1", "0", "1", "1", "0", "0", "0", "0", "0", "0", "1", "0", "0", "1", "1", "0", "1", "1", "1", "0", "0", "1", "1", "0", "0", "0", "1", "1", "0", "1", "1", "1", "1", "0", "1", "1", "0", "0", "1", "0", "0", "1", "1", "1", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "attributes": {
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.g": {
+          "hide_name": 1,
+          "bits": [ 71, 75, 80, 42, 43 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:222.21-222.22"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.i": {
+          "hide_name": 1,
+          "bits": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "signed": 1,
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:220.10-220.11"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.j": {
+          "hide_name": 1,
+          "bits": [ "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "signed": 1,
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:220.13-220.14"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.p": {
+          "hide_name": 1,
+          "bits": [ 45, 116, 117, 118, 119 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:222.18-222.19",
+            "unused_bits": "1 2 3 4"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:501:replace_alu$81": {
+          "hide_name": 1,
+          "bits": [ 45, 46, 47, 48, 41 ],
+          "attributes": {
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:502:replace_alu$82": {
+          "hide_name": 1,
+          "bits": [ 71, 75, 80, 42, 43 ],
+          "attributes": {
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.A": {
+          "hide_name": 1,
+          "bits": [ 10 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:266.22-266.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.AA": {
+          "hide_name": 1,
+          "bits": [ 10, "0", "0", "0", "0" ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:277.21-277.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.A_buf": {
+          "hide_name": 1,
+          "bits": [ 10, "0", "0", "0", "0" ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:282.21-282.26"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.B": {
+          "hide_name": 1,
+          "bits": [ 26, 29, 32, 35, 38 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:268.22-268.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.BB": {
+          "hide_name": 1,
+          "bits": [ 28, 31, 34, 37, 40 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.21-279.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.BI": {
+          "hide_name": 1,
+          "bits": [ 120 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:272.12-272.14"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.B_buf": {
+          "hide_name": 1,
+          "bits": [ 26, 29, 32, 35, 38 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:282.28-282.33"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.CI": {
+          "hide_name": 1,
+          "bits": [ 121 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:272.8-272.10"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.CO": {
+          "hide_name": 1,
+          "bits": [ 56, 58, 60, 62, 63 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.X": {
+          "hide_name": 1,
+          "bits": [ 54, 55, 57, 59, 61 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:270.23-270.24"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.Y": {
+          "hide_name": 1,
+          "bits": [ 11, 12, 13, 14, 15 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:270.26-270.27"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.CI": {
+          "hide_name": 1,
+          "bits": [ 122 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:215.8-215.10"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.CO": {
+          "hide_name": 1,
+          "bits": [ 56, 58, 60, 62, 63 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:218.21-218.23"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.G": {
+          "hide_name": 1,
+          "bits": [ 65, 66, 67, 68, 69 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:214.23-214.24"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.P": {
+          "hide_name": 1,
+          "bits": [ 54, 55, 57, 59, 61 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:214.20-214.21"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu._TECHMAP_DONE_": {
+          "hide_name": 1,
+          "bits": [ "0", "0", "1", "0", "1", "1", "1", "0", "1", "1", "0", "0", "1", "1", "1", "0", "1", "0", "0", "0", "0", "1", "1", "0", "0", "1", "1", "0", "0", "1", "1", "0", "1", "0", "1", "1", "0", "1", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "1", "0", "1", "1", "1", "0", "0", "0", "0", "0", "1", "1", "1", "0", "1", "1", "1", "1", "0", "1", "1", "0", "0", "0", "0", "0", "0", "1", "0", "0", "1", "1", "0", "1", "1", "1", "0", "0", "1", "1", "0", "0", "0", "1", "1", "0", "1", "1", "1", "1", "0", "1", "1", "0", "0", "1", "0", "0", "1", "1", "1", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "attributes": {
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.g": {
+          "hide_name": 1,
+          "bits": [ 56, 58, 60, 62, 63 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:222.21-222.22"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.i": {
+          "hide_name": 1,
+          "bits": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "signed": 1,
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:220.10-220.11"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.j": {
+          "hide_name": 1,
+          "bits": [ "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "signed": 1,
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:220.13-220.14"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.p": {
+          "hide_name": 1,
+          "bits": [ 54, 123, 124, 125, 126 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:222.18-222.19",
+            "unused_bits": "1 2 3 4"
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:501:replace_alu$84": {
+          "hide_name": 1,
+          "bits": [ 54, 55, 57, 59, 61 ],
+          "attributes": {
+          }
+        },
+        "$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:502:replace_alu$85": {
+          "hide_name": 1,
+          "bits": [ 56, 58, 60, 62, 63 ],
+          "attributes": {
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.$and$/build/bin/../share/yosys/techmap.v:286$88_Y": {
+          "hide_name": 1,
+          "bits": [ 49, 50, 51, 52, 53 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.$not$/build/bin/../share/yosys/techmap.v:279$86_Y": {
+          "hide_name": 1,
+          "bits": [ 16, 18, 20, 22, 24 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.$ternary$/build/bin/../share/yosys/techmap.v:279$87_Y": {
+          "hide_name": 1,
+          "bits": [ 17, 19, 21, 23, 25 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.$xor$/build/bin/../share/yosys/techmap.v:288$89_Y": {
+          "hide_name": 1,
+          "bits": [ 45, 46, 47, 48, 41 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.$xor$/build/bin/../share/yosys/techmap.v:289$90_Y": {
+          "hide_name": 1,
+          "bits": [ 26, 29, 32, 35, 38, 44 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.$and$/build/bin/../share/yosys/techmap.v:231$113_Y": {
+          "hide_name": 1,
+          "bits": [ 70 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:231.18-231.27"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.$and$/build/bin/../share/yosys/techmap.v:240$115_Y": {
+          "hide_name": 1,
+          "bits": [ 72 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.$and$/build/bin/../share/yosys/techmap.v:240$118_Y": {
+          "hide_name": 1,
+          "bits": [ 73 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.$and$/build/bin/../share/yosys/techmap.v:240$121_Y": {
+          "hide_name": 1,
+          "bits": [ 76 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.$and$/build/bin/../share/yosys/techmap.v:241$120_Y": {
+          "hide_name": 1,
+          "bits": [ 74 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:241.12-241.34"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.$and$/build/bin/../share/yosys/techmap.v:248$124_Y": {
+          "hide_name": 1,
+          "bits": [ 77 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.19-248.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.$and$/build/bin/../share/yosys/techmap.v:248$127_Y": {
+          "hide_name": 1,
+          "bits": [ 78 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.19-248.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$1.$auto$alumacc.cc:485:replace_alu$80.lcu.$or$/build/bin/../share/yosys/techmap.v:240$119_Y": {
+          "hide_name": 1,
+          "bits": [ 79 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.12-240.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.$and$/build/bin/../share/yosys/techmap.v:286$93_Y": {
+          "hide_name": 1,
+          "bits": [ 65, 66, 67, 68, 69 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.42-286.49"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.$not$/build/bin/../share/yosys/techmap.v:279$91_Y": {
+          "hide_name": 1,
+          "bits": [ 27, 30, 33, 36, 39 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.31-279.37"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.$ternary$/build/bin/../share/yosys/techmap.v:279$92_Y": {
+          "hide_name": 1,
+          "bits": [ 28, 31, 34, 37, 40 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:279.26-279.45"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.$xor$/build/bin/../share/yosys/techmap.v:288$94_Y": {
+          "hide_name": 1,
+          "bits": [ 54, 55, 57, 59, 61 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:288.13-288.20"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.$xor$/build/bin/../share/yosys/techmap.v:289$95_Y": {
+          "hide_name": 1,
+          "bits": [ 11, 12, 13, 14, 15, 64 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:289.13-289.25"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.$and$/build/bin/../share/yosys/techmap.v:231$113_Y": {
+          "hide_name": 1,
+          "bits": [ 81 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:231.18-231.27"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.$and$/build/bin/../share/yosys/techmap.v:240$115_Y": {
+          "hide_name": 1,
+          "bits": [ 82 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.$and$/build/bin/../share/yosys/techmap.v:240$118_Y": {
+          "hide_name": 1,
+          "bits": [ 83 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.$and$/build/bin/../share/yosys/techmap.v:240$121_Y": {
+          "hide_name": 1,
+          "bits": [ 85 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.19-240.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.$and$/build/bin/../share/yosys/techmap.v:241$120_Y": {
+          "hide_name": 1,
+          "bits": [ 84 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:241.12-241.34"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.$and$/build/bin/../share/yosys/techmap.v:248$124_Y": {
+          "hide_name": 1,
+          "bits": [ 86 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.19-248.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.$and$/build/bin/../share/yosys/techmap.v:248$127_Y": {
+          "hide_name": 1,
+          "bits": [ 87 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:248.19-248.41"
+          }
+        },
+        "$techmap$techmap$add$designs/adder_4b/adder_4b.v:8$2.$auto$alumacc.cc:485:replace_alu$83.lcu.$or$/build/bin/../share/yosys/techmap.v:240$119_Y": {
+          "hide_name": 1,
+          "bits": [ 88 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47|/build/bin/../share/yosys/techmap.v:286.27-286.69|/build/bin/../share/yosys/techmap.v:240.12-240.41"
+          }
+        },
+        "A_82": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:2.14-2.18"
+          }
+        },
+        "B_63": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:2.20-2.24"
+          }
+        },
+        "C_in": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:3.8-3.12"
+          }
+        },
+        "C_out": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:5.9-5.14"
+          }
+        },
+        "Sum_8263": {
+          "hide_name": 0,
+          "bits": [ 11, 12, 13, 14 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:4.15-4.23"
+          }
+        }
+      }
+    }
+  }
+}

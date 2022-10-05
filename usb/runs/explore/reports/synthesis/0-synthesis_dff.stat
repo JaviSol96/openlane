@@ -1,0 +1,27 @@
+
+16. Printing statistics.
+
+=== usb ===
+
+   Number of wires:                940
+   Number of wire bits:           1166
+   Number of public wires:          74
+   Number of public wire bits:     281
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1103
+     $_ANDNOT_                     222
+     $_AND_                         27
+     $_MUX_                        255
+     $_NAND_                        33
+     $_NOR_                         34
+     $_NOT_                         44
+     $_ORNOT_                       39
+     $_OR_                         200
+     $_XNOR_                         8
+     $_XOR_                         47
+     sky130_fd_sc_hd__dfrtp_2       90
+     sky130_fd_sc_hd__dfstp_2       39
+     sky130_fd_sc_hd__dfxtp_2       65
+

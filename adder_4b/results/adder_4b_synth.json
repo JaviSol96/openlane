@@ -1,0 +1,128 @@
+{
+  "creator": "Yosys 0.20+70 (git sha1 6e907acf86d, gcc 8.3.1 -fPIC -Os)",
+  "modules": {
+    "adder_4b": {
+      "attributes": {
+        "hdlname": "\\adder_4b",
+        "top": "00000000000000000000000000000001",
+        "src": "designs/adder_4b/adder_4b.v:1.1-10.10"
+      },
+      "ports": {
+        "A_82": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "B_63": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9 ]
+        },
+        "C_in": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "Sum_8263": {
+          "direction": "output",
+          "bits": [ 11, 12, 13, 14 ]
+        },
+        "C_out": {
+          "direction": "output",
+          "bits": [ 15 ]
+        }
+      },
+      "cells": {
+        "$add$designs/adder_4b/adder_4b.v:8$1": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2, 3, 4, 5 ],
+            "B": [ 6, 7, 8, 9 ],
+            "Y": [ 16, 17, 18, 19, 20 ]
+          }
+        },
+        "$add$designs/adder_4b/adder_4b.v:8$2": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000101",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 16, 17, 18, 19, 20 ],
+            "B": [ 10 ],
+            "Y": [ 11, 12, 13, 14, 15 ]
+          }
+        }
+      },
+      "netnames": {
+        "$add$designs/adder_4b/adder_4b.v:8$1_Y": {
+          "hide_name": 1,
+          "bits": [ 16, 17, 18, 19, 20 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:8.29-8.40"
+          }
+        },
+        "A_82": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:2.14-2.18"
+          }
+        },
+        "B_63": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:2.20-2.24"
+          }
+        },
+        "C_in": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:3.8-3.12"
+          }
+        },
+        "C_out": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:5.9-5.14"
+          }
+        },
+        "Sum_8263": {
+          "hide_name": 0,
+          "bits": [ 11, 12, 13, 14 ],
+          "attributes": {
+            "src": "designs/adder_4b/adder_4b.v:4.15-4.23"
+          }
+        }
+      }
+    }
+  }
+}
